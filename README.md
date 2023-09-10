@@ -12,10 +12,6 @@ Titimousse Background Video API is a useful tool for playing videos without cont
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 
-## Authors
-
-- [@Titimousse](https://www.github.com/soleil-des-chats)
-
 
 ## Demo
 
@@ -26,6 +22,14 @@ Muted : [Click here](https://soleil-des-chats.github.io/Background-Video-Api/Mut
 Default Loop (Some Browser Block AutoPlaying in this one) : [Click Here](https://soleil-des-chats.github.io/Background-Video-Api/Loop#https://media.vlipsy.com/vlips/tVmiYVBz/480p.mp4)
 
 Muted Loop : [Click here](https://soleil-des-chats.github.io/Background-Video-Api/Muted%20Loop#https://media.vlipsy.com/vlips/tVmiYVBz/480p.mp4)
+
+
+
+## Authors
+
+- [@Titimousse](https://www.github.com/soleil-des-chats)
+
+
 
 
 
