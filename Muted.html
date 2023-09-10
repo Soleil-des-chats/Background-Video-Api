@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titimousse Video Background Api</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted playsinline>
+        <!-- Lien de la vidéo fourni via l'ancre de l'URL -->
+        <source src="#" id="video-source" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de vidéos.
+    </video>
+
+    <script>
+        // Récupérer le lien de la vidéo depuis l'ancre de l'URL
+        const videoUrlWithHash = window.location.hash;
+        const videoUrl = videoUrlWithHash.slice(1); // Supprimer le caractère "#" initial
+
+        // Mettre à jour la source de la vidéo
+        const videoElement = document.getElementById('video-source');
+        videoElement.src = videoUrl;
+
+        // Charger la vidéo lorsque la page est chargée
+        videoElement.load();
+    </script>
+</body>
+</html>
